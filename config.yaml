@@ -1,0 +1,12 @@
+disk_threshold: 85
+check_interval: 60
+
+scan_paths:
+  - /tmp
+  - /var/log
+  - /backup
+
+exclude:
+  - /etc
+  - /usr
+  - /home

@@ -1,0 +1,6 @@
+{
+    "hostname": "A",
+    "disk_usage": 51.8,
+    "threshold": 85,
+    "status": "NORMAL"
+}
