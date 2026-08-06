@@ -1,0 +1,25 @@
+server_url: "http://127.0.0.1:8000"
+
+disk_threshold: 1
+
+target_usage: 80
+
+scan_interval: 10
+
+min_size_mb: 1
+
+max_age_days: 90
+
+scan_paths:
+  - /tmp
+  - /var/log
+  - /var/tmp
+  - /opt
+  - /home/bob/test-files
+
+exclude_paths:
+  - /etc
+  - /usr
+  - /bin
+  - /lib
+  - /home
